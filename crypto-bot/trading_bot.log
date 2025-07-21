@@ -1,0 +1,599 @@
+2025-07-11 23:52:43,693 - INFO - KuCoin exchange initialized successfully
+2025-07-11 23:52:45,118 - ERROR - Attempt 1 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:52:47,179 - ERROR - Attempt 2 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:52:49,240 - ERROR - Attempt 3 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:52:49,288 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:52:49,550 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:52:52,133 - ERROR - Attempt 1 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:52:54,204 - ERROR - Attempt 2 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:52:56,259 - ERROR - Attempt 3 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:52:56,309 - ERROR - Fallback ticker fetch failed for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:52:56,569 - INFO - [ETH/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:52:58,452 - ERROR - Attempt 1 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:00,554 - ERROR - Attempt 2 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:02,610 - ERROR - Attempt 3 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:02,659 - ERROR - Fallback ticker fetch failed for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:02,926 - INFO - [BNB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:05,574 - ERROR - Attempt 1 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:07,629 - ERROR - Attempt 2 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:09,684 - ERROR - Attempt 3 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:09,750 - ERROR - Fallback ticker fetch failed for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:10,012 - INFO - [SOL/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:11,418 - ERROR - Attempt 1 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:13,478 - ERROR - Attempt 2 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:15,539 - ERROR - Attempt 3 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:15,578 - ERROR - Fallback ticker fetch failed for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:15,839 - INFO - [AVAX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:17,317 - ERROR - Attempt 1 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:19,380 - ERROR - Attempt 2 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:21,444 - ERROR - Attempt 3 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:21,483 - ERROR - Fallback ticker fetch failed for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:21,755 - INFO - [XRP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:23,503 - ERROR - Attempt 1 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:25,573 - ERROR - Attempt 2 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:27,628 - ERROR - Attempt 3 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:27,668 - ERROR - Fallback ticker fetch failed for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:27,930 - INFO - [ADA/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:29,286 - ERROR - Attempt 1 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:31,349 - ERROR - Attempt 2 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:33,408 - ERROR - Attempt 3 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:33,448 - ERROR - Fallback ticker fetch failed for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:33,709 - INFO - [TRX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:34,914 - ERROR - Attempt 1 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:36,973 - ERROR - Attempt 2 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:39,050 - ERROR - Attempt 3 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:39,098 - ERROR - Fallback ticker fetch failed for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:39,363 - INFO - [LTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:40,653 - ERROR - Attempt 1 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:42,711 - ERROR - Attempt 2 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:44,779 - ERROR - Attempt 3 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:44,824 - ERROR - Fallback ticker fetch failed for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:45,091 - INFO - [DOT/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:46,406 - ERROR - Attempt 1 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:48,469 - ERROR - Attempt 2 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:50,528 - ERROR - Attempt 3 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:50,568 - ERROR - Fallback ticker fetch failed for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:50,832 - INFO - [LINK/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:52,442 - ERROR - Attempt 1 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:54,499 - ERROR - Attempt 2 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:56,559 - ERROR - Attempt 3 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:56,598 - ERROR - Fallback ticker fetch failed for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:53:56,870 - INFO - [ATOM/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:53:58,209 - ERROR - Attempt 1 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:00,270 - ERROR - Attempt 2 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:02,331 - ERROR - Attempt 3 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:02,379 - ERROR - Fallback ticker fetch failed for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:02,635 - INFO - [ARB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:54:04,845 - ERROR - Attempt 1 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:06,906 - ERROR - Attempt 2 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:08,955 - ERROR - Attempt 3 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:09,005 - ERROR - Fallback ticker fetch failed for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:09,261 - INFO - [OP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:54:10,474 - ERROR - Attempt 1 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:12,529 - ERROR - Attempt 2 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:14,580 - ERROR - Attempt 3 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:14,630 - ERROR - Fallback ticker fetch failed for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:14,893 - INFO - [INJ/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:54:14,893 - INFO - No valid signals this cycle.
+2025-07-11 23:54:46,641 - ERROR - Attempt 1 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:48,699 - ERROR - Attempt 2 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:50,760 - ERROR - Attempt 3 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:50,801 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:51,061 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:54:52,895 - ERROR - Attempt 1 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:54,966 - ERROR - Attempt 2 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:57,010 - ERROR - Attempt 3 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:57,061 - ERROR - Fallback ticker fetch failed for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:54:57,329 - INFO - [ETH/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:54:58,731 - ERROR - Attempt 1 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:00,790 - ERROR - Attempt 2 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:02,840 - ERROR - Attempt 3 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:02,895 - ERROR - Fallback ticker fetch failed for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:03,153 - INFO - [BNB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:55:04,944 - ERROR - Attempt 1 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:07,005 - ERROR - Attempt 2 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:09,065 - ERROR - Attempt 3 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:09,113 - ERROR - Fallback ticker fetch failed for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:09,382 - INFO - [SOL/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:55:11,852 - ERROR - Attempt 1 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:13,911 - ERROR - Attempt 2 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:15,969 - ERROR - Attempt 3 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:16,041 - ERROR - Fallback ticker fetch failed for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:16,300 - INFO - [AVAX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:55:19,178 - ERROR - Attempt 1 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:21,241 - ERROR - Attempt 2 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:23,308 - ERROR - Attempt 3 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:23,361 - ERROR - Fallback ticker fetch failed for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:23,631 - INFO - [XRP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:55:27,058 - ERROR - Attempt 1 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:29,120 - ERROR - Attempt 2 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:31,180 - ERROR - Attempt 3 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:31,230 - ERROR - Fallback ticker fetch failed for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:31,494 - INFO - [ADA/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:55:34,526 - ERROR - Attempt 1 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:36,593 - ERROR - Attempt 2 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:38,653 - ERROR - Attempt 3 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:38,702 - ERROR - Fallback ticker fetch failed for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:38,978 - INFO - [TRX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:55:45,292 - ERROR - Attempt 1 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:47,358 - ERROR - Attempt 2 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:49,428 - ERROR - Attempt 3 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:49,483 - ERROR - Fallback ticker fetch failed for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:49,750 - INFO - [LTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:55:53,676 - ERROR - Attempt 1 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:55,964 - ERROR - Attempt 2 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:58,241 - ERROR - Attempt 3 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:58,343 - ERROR - Fallback ticker fetch failed for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:55:58,646 - INFO - [DOT/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:56:02,663 - ERROR - Attempt 1 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:04,728 - ERROR - Attempt 2 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:06,794 - ERROR - Attempt 3 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:06,863 - ERROR - Fallback ticker fetch failed for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:07,132 - INFO - [LINK/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:56:11,407 - ERROR - Attempt 1 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:13,728 - ERROR - Attempt 2 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:15,875 - ERROR - Attempt 3 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:15,960 - ERROR - Fallback ticker fetch failed for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:16,265 - INFO - [ATOM/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:56:19,686 - ERROR - Attempt 1 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:21,794 - ERROR - Attempt 2 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:23,924 - ERROR - Attempt 3 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:23,974 - ERROR - Fallback ticker fetch failed for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:24,248 - INFO - [ARB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:56:27,531 - ERROR - Attempt 1 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:29,591 - ERROR - Attempt 2 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:31,644 - ERROR - Attempt 3 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:31,692 - ERROR - Fallback ticker fetch failed for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:31,953 - INFO - [OP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:56:34,377 - ERROR - Attempt 1 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:36,446 - ERROR - Attempt 2 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:38,509 - ERROR - Attempt 3 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:38,554 - ERROR - Fallback ticker fetch failed for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:56:38,810 - INFO - [INJ/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:56:38,810 - INFO - No valid signals this cycle.
+2025-07-11 23:57:12,297 - ERROR - Attempt 1 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:14,356 - ERROR - Attempt 2 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:16,413 - ERROR - Attempt 3 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:16,463 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:16,735 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:57:19,106 - ERROR - Attempt 1 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:21,201 - ERROR - Attempt 2 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:23,268 - ERROR - Attempt 3 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:23,315 - ERROR - Fallback ticker fetch failed for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:23,583 - INFO - [ETH/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:57:28,574 - ERROR - Attempt 1 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:30,631 - ERROR - Attempt 2 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:32,689 - ERROR - Attempt 3 failed to fetch data for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:32,731 - ERROR - Fallback ticker fetch failed for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:32,991 - INFO - [BNB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:57:35,239 - ERROR - Attempt 1 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:37,301 - ERROR - Attempt 2 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:39,399 - ERROR - Attempt 3 failed to fetch data for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:39,452 - ERROR - Fallback ticker fetch failed for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:39,715 - INFO - [SOL/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:57:43,244 - ERROR - Attempt 1 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:45,302 - ERROR - Attempt 2 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:47,365 - ERROR - Attempt 3 failed to fetch data for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:47,419 - ERROR - Fallback ticker fetch failed for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:47,684 - INFO - [AVAX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:57:50,786 - ERROR - Attempt 1 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:52,850 - ERROR - Attempt 2 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:54,910 - ERROR - Attempt 3 failed to fetch data for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:54,968 - ERROR - Fallback ticker fetch failed for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:57:55,230 - INFO - [XRP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:57:59,920 - ERROR - Attempt 1 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:01,993 - ERROR - Attempt 2 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:04,046 - ERROR - Attempt 3 failed to fetch data for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:04,115 - ERROR - Fallback ticker fetch failed for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:04,393 - INFO - [ADA/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:58:08,260 - ERROR - Attempt 1 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:10,325 - ERROR - Attempt 2 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:12,374 - ERROR - Attempt 3 failed to fetch data for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:12,430 - ERROR - Fallback ticker fetch failed for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:12,694 - INFO - [TRX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:58:14,933 - ERROR - Attempt 1 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:16,991 - ERROR - Attempt 2 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:19,042 - ERROR - Attempt 3 failed to fetch data for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:19,101 - ERROR - Fallback ticker fetch failed for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:19,362 - INFO - [LTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:58:21,772 - ERROR - Attempt 1 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:23,980 - ERROR - Attempt 2 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:26,210 - ERROR - Attempt 3 failed to fetch data for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:26,298 - ERROR - Fallback ticker fetch failed for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:26,574 - INFO - [DOT/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:58:32,911 - ERROR - Attempt 1 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:34,972 - ERROR - Attempt 2 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:37,043 - ERROR - Attempt 3 failed to fetch data for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:37,098 - ERROR - Fallback ticker fetch failed for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:37,371 - INFO - [LINK/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:58:40,475 - ERROR - Attempt 1 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:42,627 - ERROR - Attempt 2 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:44,740 - ERROR - Attempt 3 failed to fetch data for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:44,781 - ERROR - Fallback ticker fetch failed for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:45,043 - INFO - [ATOM/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:58:48,014 - ERROR - Attempt 1 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:50,083 - ERROR - Attempt 2 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:52,142 - ERROR - Attempt 3 failed to fetch data for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:52,192 - ERROR - Fallback ticker fetch failed for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:52,456 - INFO - [ARB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:58:56,423 - ERROR - Attempt 1 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:58:58,484 - ERROR - Attempt 2 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:00,577 - ERROR - Attempt 3 failed to fetch data for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:00,635 - ERROR - Fallback ticker fetch failed for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:00,902 - INFO - [OP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:59:03,853 - ERROR - Attempt 1 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:05,964 - ERROR - Attempt 2 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:08,026 - ERROR - Attempt 3 failed to fetch data for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:08,075 - ERROR - Fallback ticker fetch failed for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:08,333 - INFO - [INJ/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:59:08,334 - INFO - No valid signals this cycle.
+2025-07-11 23:59:42,262 - ERROR - Attempt 1 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:44,316 - ERROR - Attempt 2 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:46,371 - ERROR - Attempt 3 failed to fetch data for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:46,436 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-11 23:59:46,728 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-11 23:59:49,189 - ERROR - Attempt 1 failed to fetch data for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:15,022 - INFO - KuCoin exchange initialized and credentials validated successfully
+2025-07-12 00:00:16,868 - ERROR - Attempt 1 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:18,939 - ERROR - Attempt 2 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:21,000 - ERROR - Attempt 3 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:23,051 - ERROR - Attempt 4 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:25,110 - ERROR - Attempt 5 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:25,150 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:25,410 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 00:00:26,826 - ERROR - Attempt 1 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:28,880 - ERROR - Attempt 2 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:30,940 - ERROR - Attempt 3 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:32,990 - ERROR - Attempt 4 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:35,051 - ERROR - Attempt 5 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:35,090 - ERROR - Fallback ticker fetch failed for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:35,350 - INFO - [ETH/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 00:00:36,894 - ERROR - Attempt 1 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:38,972 - ERROR - Attempt 2 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:41,034 - ERROR - Attempt 3 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:43,091 - ERROR - Attempt 4 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:45,144 - ERROR - Attempt 5 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:45,194 - ERROR - Fallback ticker fetch failed for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 00:00:45,468 - INFO - [BNB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:42:48,376 - INFO - KuCoin exchange initialized and credentials validated successfully
+2025-07-12 04:42:49,481 - ERROR - Attempt 1 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:42:51,540 - ERROR - Attempt 2 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:42:53,604 - ERROR - Attempt 3 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:42:55,671 - ERROR - Attempt 4 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:42:57,742 - ERROR - Attempt 5 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:42:57,789 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:42:58,058 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:42:59,112 - ERROR - Attempt 1 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:01,171 - ERROR - Attempt 2 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:03,234 - ERROR - Attempt 3 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:05,299 - ERROR - Attempt 4 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:07,364 - ERROR - Attempt 5 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:07,410 - ERROR - Fallback ticker fetch failed for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:07,668 - INFO - [ETH/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:43:08,709 - ERROR - Attempt 1 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:10,761 - ERROR - Attempt 2 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:12,824 - ERROR - Attempt 3 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:14,895 - ERROR - Attempt 4 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:16,957 - ERROR - Attempt 5 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:17,004 - ERROR - Fallback ticker fetch failed for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:17,263 - INFO - [BNB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:43:18,338 - ERROR - Attempt 1 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:20,404 - ERROR - Attempt 2 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:22,473 - ERROR - Attempt 3 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:24,537 - ERROR - Attempt 4 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:26,590 - ERROR - Attempt 5 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:26,637 - ERROR - Fallback ticker fetch failed for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:26,895 - INFO - [SOL/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:43:29,090 - ERROR - Attempt 1 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:31,144 - ERROR - Attempt 2 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:33,204 - ERROR - Attempt 3 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:35,261 - ERROR - Attempt 4 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:37,323 - ERROR - Attempt 5 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:37,370 - ERROR - Fallback ticker fetch failed for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:37,629 - INFO - [AVAX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:43:39,060 - ERROR - Attempt 1 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:41,116 - ERROR - Attempt 2 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:43,189 - ERROR - Attempt 3 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:45,252 - ERROR - Attempt 4 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:47,318 - ERROR - Attempt 5 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:47,363 - ERROR - Fallback ticker fetch failed for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:47,627 - INFO - [XRP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:43:48,873 - ERROR - Attempt 1 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:50,923 - ERROR - Attempt 2 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:53,001 - ERROR - Attempt 3 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:55,064 - ERROR - Attempt 4 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:57,129 - ERROR - Attempt 5 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:57,176 - ERROR - Fallback ticker fetch failed for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:43:57,440 - INFO - [ADA/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:43:58,692 - ERROR - Attempt 1 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:00,761 - ERROR - Attempt 2 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:02,820 - ERROR - Attempt 3 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:04,884 - ERROR - Attempt 4 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:06,937 - ERROR - Attempt 5 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:06,978 - ERROR - Fallback ticker fetch failed for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:07,245 - INFO - [TRX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:44:08,345 - ERROR - Attempt 1 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:10,401 - ERROR - Attempt 2 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:12,466 - ERROR - Attempt 3 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:14,530 - ERROR - Attempt 4 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:16,589 - ERROR - Attempt 5 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:16,636 - ERROR - Fallback ticker fetch failed for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:16,896 - INFO - [LTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:44:17,974 - ERROR - Attempt 1 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:20,038 - ERROR - Attempt 2 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:22,113 - ERROR - Attempt 3 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:24,164 - ERROR - Attempt 4 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:26,231 - ERROR - Attempt 5 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:26,274 - ERROR - Fallback ticker fetch failed for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:26,541 - INFO - [DOT/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:44:27,654 - ERROR - Attempt 1 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:29,710 - ERROR - Attempt 2 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:31,783 - ERROR - Attempt 3 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:33,847 - ERROR - Attempt 4 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:35,908 - ERROR - Attempt 5 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:35,955 - ERROR - Fallback ticker fetch failed for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:36,218 - INFO - [LINK/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:44:37,475 - ERROR - Attempt 1 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:39,538 - ERROR - Attempt 2 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:41,597 - ERROR - Attempt 3 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:43,664 - ERROR - Attempt 4 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:45,726 - ERROR - Attempt 5 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:45,773 - ERROR - Fallback ticker fetch failed for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:46,034 - INFO - [ATOM/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:44:47,141 - ERROR - Attempt 1 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:49,198 - ERROR - Attempt 2 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:51,273 - ERROR - Attempt 3 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:53,337 - ERROR - Attempt 4 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:55,400 - ERROR - Attempt 5 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:55,446 - ERROR - Fallback ticker fetch failed for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:55,703 - INFO - [ARB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:44:56,781 - ERROR - Attempt 1 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:44:58,859 - ERROR - Attempt 2 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:00,923 - ERROR - Attempt 3 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:02,986 - ERROR - Attempt 4 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:05,051 - ERROR - Attempt 5 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:05,098 - ERROR - Fallback ticker fetch failed for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:05,366 - INFO - [OP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:45:06,480 - ERROR - Attempt 1 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:08,535 - ERROR - Attempt 2 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:10,614 - ERROR - Attempt 3 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:12,674 - ERROR - Attempt 4 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:14,738 - ERROR - Attempt 5 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:14,785 - ERROR - Fallback ticker fetch failed for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-12 04:45:15,046 - INFO - [INJ/USDT] Failed to fetch sufficient data, skipping.
+2025-07-12 04:45:15,047 - INFO - No valid signals this cycle.
+2025-07-13 23:33:06,214 - INFO - KuCoin exchange initialized and credentials validated successfully
+2025-07-13 23:33:11,260 - ERROR - Attempt 1 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:13,359 - ERROR - Attempt 2 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:15,428 - ERROR - Attempt 3 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:17,480 - ERROR - Attempt 4 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:19,749 - ERROR - Attempt 5 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:19,965 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:20,328 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:33:25,324 - ERROR - Attempt 1 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:27,385 - ERROR - Attempt 2 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:29,481 - ERROR - Attempt 3 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:31,537 - ERROR - Attempt 4 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:33,623 - ERROR - Attempt 5 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:33,676 - ERROR - Fallback ticker fetch failed for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:33,942 - INFO - [ETH/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:33:36,620 - ERROR - Attempt 1 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:38,684 - ERROR - Attempt 2 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:40,735 - ERROR - Attempt 3 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:42,797 - ERROR - Attempt 4 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:44,855 - ERROR - Attempt 5 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:44,904 - ERROR - Fallback ticker fetch failed for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:45,168 - INFO - [BNB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:33:47,124 - ERROR - Attempt 1 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:49,183 - ERROR - Attempt 2 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:51,243 - ERROR - Attempt 3 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:53,295 - ERROR - Attempt 4 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:55,353 - ERROR - Attempt 5 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:55,393 - ERROR - Fallback ticker fetch failed for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:55,654 - INFO - [SOL/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:33:57,506 - ERROR - Attempt 1 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:33:59,567 - ERROR - Attempt 2 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:01,758 - ERROR - Attempt 3 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:03,839 - ERROR - Attempt 4 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:05,893 - ERROR - Attempt 5 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:05,955 - ERROR - Fallback ticker fetch failed for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:06,217 - INFO - [AVAX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:34:08,699 - ERROR - Attempt 1 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:10,798 - ERROR - Attempt 2 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:12,899 - ERROR - Attempt 3 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:14,969 - ERROR - Attempt 4 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:17,056 - ERROR - Attempt 5 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:17,100 - ERROR - Fallback ticker fetch failed for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:17,373 - INFO - [XRP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:34:22,464 - ERROR - Attempt 1 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:24,536 - ERROR - Attempt 2 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:26,610 - ERROR - Attempt 3 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:28,662 - ERROR - Attempt 4 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:30,713 - ERROR - Attempt 5 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:30,765 - ERROR - Fallback ticker fetch failed for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:31,026 - INFO - [ADA/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:34:33,703 - ERROR - Attempt 1 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:35,766 - ERROR - Attempt 2 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:37,815 - ERROR - Attempt 3 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:39,877 - ERROR - Attempt 4 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:41,928 - ERROR - Attempt 5 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:41,977 - ERROR - Fallback ticker fetch failed for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:42,234 - INFO - [TRX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:34:44,063 - ERROR - Attempt 1 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:46,134 - ERROR - Attempt 2 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:48,195 - ERROR - Attempt 3 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:50,289 - ERROR - Attempt 4 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:52,345 - ERROR - Attempt 5 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:52,414 - ERROR - Fallback ticker fetch failed for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:52,682 - INFO - [LTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:34:56,274 - ERROR - Attempt 1 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:34:58,390 - ERROR - Attempt 2 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:00,445 - ERROR - Attempt 3 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:02,494 - ERROR - Attempt 4 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:04,564 - ERROR - Attempt 5 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:04,608 - ERROR - Fallback ticker fetch failed for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:04,866 - INFO - [DOT/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:35:07,485 - ERROR - Attempt 1 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:09,550 - ERROR - Attempt 2 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:11,604 - ERROR - Attempt 3 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:13,664 - ERROR - Attempt 4 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:15,714 - ERROR - Attempt 5 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:15,763 - ERROR - Fallback ticker fetch failed for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:16,023 - INFO - [LINK/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:35:17,828 - ERROR - Attempt 1 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:19,894 - ERROR - Attempt 2 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:21,957 - ERROR - Attempt 3 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:24,006 - ERROR - Attempt 4 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:26,063 - ERROR - Attempt 5 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:26,104 - ERROR - Fallback ticker fetch failed for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:26,368 - INFO - [ATOM/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:35:29,048 - ERROR - Attempt 1 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:31,103 - ERROR - Attempt 2 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:33,153 - ERROR - Attempt 3 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:35,215 - ERROR - Attempt 4 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:37,275 - ERROR - Attempt 5 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:37,324 - ERROR - Fallback ticker fetch failed for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:37,585 - INFO - [ARB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:35:39,557 - ERROR - Attempt 1 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:41,613 - ERROR - Attempt 2 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:43,663 - ERROR - Attempt 3 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:45,723 - ERROR - Attempt 4 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:47,774 - ERROR - Attempt 5 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:47,823 - ERROR - Fallback ticker fetch failed for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:48,091 - INFO - [OP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:35:49,742 - ERROR - Attempt 1 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:51,841 - ERROR - Attempt 2 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:53,893 - ERROR - Attempt 3 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:55,943 - ERROR - Attempt 4 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:58,003 - ERROR - Attempt 5 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:58,053 - ERROR - Fallback ticker fetch failed for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:35:58,322 - INFO - [INJ/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:35:58,323 - INFO - No valid signals this cycle.
+2025-07-13 23:36:29,951 - ERROR - Attempt 1 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:32,013 - ERROR - Attempt 2 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:34,073 - ERROR - Attempt 3 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:36,124 - ERROR - Attempt 4 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:38,174 - ERROR - Attempt 5 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:38,223 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:38,486 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:36:40,975 - ERROR - Attempt 1 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:43,035 - ERROR - Attempt 2 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:45,093 - ERROR - Attempt 3 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:47,144 - ERROR - Attempt 4 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:49,199 - ERROR - Attempt 5 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:49,262 - ERROR - Fallback ticker fetch failed for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:49,525 - INFO - [ETH/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:36:51,495 - ERROR - Attempt 1 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:53,559 - ERROR - Attempt 2 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:55,602 - ERROR - Attempt 3 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:57,663 - ERROR - Attempt 4 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:59,713 - ERROR - Attempt 5 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:36:59,763 - ERROR - Fallback ticker fetch failed for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:00,026 - INFO - [BNB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:37:01,786 - ERROR - Attempt 1 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:03,843 - ERROR - Attempt 2 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:05,913 - ERROR - Attempt 3 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:07,969 - ERROR - Attempt 4 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:10,023 - ERROR - Attempt 5 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:10,073 - ERROR - Fallback ticker fetch failed for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:10,343 - INFO - [SOL/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:37:11,692 - ERROR - Attempt 1 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:13,754 - ERROR - Attempt 2 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:15,815 - ERROR - Attempt 3 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:17,863 - ERROR - Attempt 4 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:19,915 - ERROR - Attempt 5 failed to fetch OHLCV for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:19,962 - ERROR - Fallback ticker fetch failed for AVAX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:20,231 - INFO - [AVAX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:37:22,477 - ERROR - Attempt 1 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:24,534 - ERROR - Attempt 2 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:26,592 - ERROR - Attempt 3 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:28,642 - ERROR - Attempt 4 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:30,703 - ERROR - Attempt 5 failed to fetch OHLCV for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:30,753 - ERROR - Fallback ticker fetch failed for XRP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:31,009 - INFO - [XRP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:37:32,360 - ERROR - Attempt 1 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:34,423 - ERROR - Attempt 2 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:36,485 - ERROR - Attempt 3 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:38,547 - ERROR - Attempt 4 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:40,610 - ERROR - Attempt 5 failed to fetch OHLCV for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:40,661 - ERROR - Fallback ticker fetch failed for ADA/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:40,923 - INFO - [ADA/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:37:42,452 - ERROR - Attempt 1 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:44,513 - ERROR - Attempt 2 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:46,572 - ERROR - Attempt 3 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:48,622 - ERROR - Attempt 4 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:50,682 - ERROR - Attempt 5 failed to fetch OHLCV for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:50,723 - ERROR - Fallback ticker fetch failed for TRX/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:50,989 - INFO - [TRX/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:37:52,757 - ERROR - Attempt 1 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:54,819 - ERROR - Attempt 2 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:56,863 - ERROR - Attempt 3 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:37:58,923 - ERROR - Attempt 4 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:00,972 - ERROR - Attempt 5 failed to fetch OHLCV for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:01,022 - ERROR - Fallback ticker fetch failed for LTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:01,287 - INFO - [LTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:38:03,197 - ERROR - Attempt 1 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:05,252 - ERROR - Attempt 2 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:07,337 - ERROR - Attempt 3 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:09,395 - ERROR - Attempt 4 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:11,443 - ERROR - Attempt 5 failed to fetch OHLCV for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:11,493 - ERROR - Fallback ticker fetch failed for DOT/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:11,753 - INFO - [DOT/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:38:13,366 - ERROR - Attempt 1 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:15,432 - ERROR - Attempt 2 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:17,492 - ERROR - Attempt 3 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:19,542 - ERROR - Attempt 4 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:21,592 - ERROR - Attempt 5 failed to fetch OHLCV for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:21,643 - ERROR - Fallback ticker fetch failed for LINK/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:21,906 - INFO - [LINK/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:38:23,936 - ERROR - Attempt 1 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:25,997 - ERROR - Attempt 2 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:28,052 - ERROR - Attempt 3 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:30,102 - ERROR - Attempt 4 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:32,164 - ERROR - Attempt 5 failed to fetch OHLCV for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:32,212 - ERROR - Fallback ticker fetch failed for ATOM/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:32,473 - INFO - [ATOM/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:38:33,841 - ERROR - Attempt 1 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:35,912 - ERROR - Attempt 2 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:37,963 - ERROR - Attempt 3 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:40,018 - ERROR - Attempt 4 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:42,074 - ERROR - Attempt 5 failed to fetch OHLCV for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:42,124 - ERROR - Fallback ticker fetch failed for ARB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:42,383 - INFO - [ARB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:38:43,918 - ERROR - Attempt 1 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:45,973 - ERROR - Attempt 2 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:48,032 - ERROR - Attempt 3 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:50,094 - ERROR - Attempt 4 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:52,143 - ERROR - Attempt 5 failed to fetch OHLCV for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:52,193 - ERROR - Fallback ticker fetch failed for OP/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:52,462 - INFO - [OP/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:38:54,512 - ERROR - Attempt 1 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:56,572 - ERROR - Attempt 2 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:38:58,632 - ERROR - Attempt 3 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:00,684 - ERROR - Attempt 4 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:02,743 - ERROR - Attempt 5 failed to fetch OHLCV for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:02,793 - ERROR - Fallback ticker fetch failed for INJ/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:03,050 - INFO - [INJ/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:39:03,050 - INFO - No valid signals this cycle.
+2025-07-13 23:39:35,906 - ERROR - Attempt 1 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:37,967 - ERROR - Attempt 2 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:40,022 - ERROR - Attempt 3 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:42,082 - ERROR - Attempt 4 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:44,130 - ERROR - Attempt 5 failed to fetch OHLCV for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:44,182 - ERROR - Fallback ticker fetch failed for BTC/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:44,443 - INFO - [BTC/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:39:45,872 - ERROR - Attempt 1 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:47,932 - ERROR - Attempt 2 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:49,995 - ERROR - Attempt 3 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:52,052 - ERROR - Attempt 4 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:54,114 - ERROR - Attempt 5 failed to fetch OHLCV for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:54,168 - ERROR - Fallback ticker fetch failed for ETH/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:54,435 - INFO - [ETH/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:39:56,360 - ERROR - Attempt 1 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:39:58,422 - ERROR - Attempt 2 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:40:00,483 - ERROR - Attempt 3 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:40:02,538 - ERROR - Attempt 4 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:40:04,590 - ERROR - Attempt 5 failed to fetch OHLCV for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:40:04,642 - ERROR - Fallback ticker fetch failed for BNB/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
+2025-07-13 23:40:04,908 - INFO - [BNB/USDT] Failed to fetch sufficient data, skipping.
+2025-07-13 23:40:07,669 - ERROR - Attempt 1 failed to fetch OHLCV for SOL/USDT: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86
