@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        function showFriends() {
+            const friends = JSON.parse(localStorage.getItem('8.html-friends')) || [];
+            const friendsList = document.getElementById('friends-list');
+            friendsList.innerHTML = '';
+
+            if (friends.length === 0) {
+                friendsList.innerHTML = '<p>No friends added yet.</p>';
+            } else {
+                friends.forEach((friend) => {
+                    friendsList.innerHTML += `
+                        <div class="friend-item">
+                            <p>${friend}</p>
+                            <button class="remove-friend-btn" onclick="removeFriend('${friend}')">Remove</button>
+                        </div>
+                    `;
+                });
+            }
+        }
+
+        function removeFriend(name) {
+            let friends = JSON.parse(localStorage.getItem('8.html-friends')) || [];
+            friends = friends.filter(friend => friend !== name);
+            localStorage.setItem('8.html-friends', JSON.stringify(friends));
+            showFriends();
+        }
+
+        function getFriendsList() {
+            return JSON.parse(localStorage.getItem('8.html-friends')) || [];
+        }
+
+        window.onload = showFriends;
+    </script>
+    <style>
+        /* General Reset and Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            height: 100%;
+            width: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+            transition: width 0.3s;
+        }
+
+        nav:hover {
+            width: 200px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            transition: all 0.3s ease;
+        }
+
+        nav a i {
+            font-size: 24px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        nav a span {
+            opacity: 0;
+            margin-left: 10px;
+            white-space: nowrap;
+            transition: opacity 0.3s ease;
+        }
+
+        nav:hover a span {
+            opacity: 1;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            margin-left: 90px; /* Adjusted for nav width */
+            padding: 20px;
+            width: calc(100% - 90px);
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .friends-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .friend-item {
+            background-color: #eaeaea;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+        }
+
+        .friend-item:hover {
+            background-color: #ddd;
+        }
+
+        .friend-item p {
+            flex: 1;
+            font-size: 16px;
+            margin-left: 20px;
+        }
+
+        .remove-friend-btn {
+            background-color: #dc3545;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .remove-friend-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="2.html"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="3.html"><i class="fas fa-comments"></i><span>Chats</span></a>
+        <a href="1.html"><i class="fas fa-user-friends"></i><span>New Friends?</span></a>
+        <a href="8.html"><i class="fas fa-user-friends"></i><span>Friends List</span></a>
+        <a href="5.html"><i class="fas fa-gamepad"></i><span>Games with <br>Friends</span></a>
+        <a href="7.html"><i class="fas fa-video"></i><span>Streams <br>with Friends</span></a>
+        <a href="practise1.html"><i class="fas fa-video"></i><span>FENDRI</span></a>
+        <a href="6.html"><i class="fas fa-user"></i><span>Account</span></a>
+        <a href="4.html"><i class="fas fa-question-circle"></i><span>Help</span></a>
+    </nav>
+    <div class="container">
+        <h2>Your Friends List</h2>
+        <div id="friends-list" class="friends-list"></div>
+    </div>
+</body>
+</html>

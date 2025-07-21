@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch with Friends</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            height: 100%;
+            width: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            transition: width 0.3s;
+        }
+
+        nav:hover {
+            width: 200px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            transition: all 0.3s ease;
+        }
+
+        nav a i {
+            font-size: 24px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        nav a span {
+            opacity: 0;
+            margin-left: 10px;
+            white-space: nowrap;
+            transition: opacity 0.3s ease;
+        }
+
+        nav:hover a span {
+            opacity: 1;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        input, select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        #video-container {
+            margin-top: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        .controls {
+            margin-top: 10px;
+        }
+
+        .controls button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+
+        .controls button:hover {
+            background-color: #0056b3;
+        }
+
+        .search-container {
+            margin-top: 20px;
+        }
+
+        .response-message {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="2.html"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="3.html"><i class="fas fa-comments"></i><span>Chats</span></a>
+        <a href="1.html"><i class="fas fa-user-friends"></i><span>New Friends?</span></a>
+        <a href="8.html"><i class="fas fa-user-friends"></i><span>Friends List</span></a>
+        <a href="5.html"><i class="fas fa-gamepad"></i><span>Games with Friends</span></a>
+        <a href="7.html"><i class="fas fa-video"></i><span>Streams with Friends</span></a>
+        <a href="practise1.html"><i class="fas fa-video"></i><span>FENDRI</span></a>
+        <a href="6.html"><i class="fas fa-user"></i><span>Account</span></a>
+        <a href="4.html"><i class="fas fa-question-circle"></i><span>Help</span></a>
+    </nav>
+
+    <div class="container">
+        <h2>Watch Video with Friends</h2>
+        
+        <!-- Search Section -->
+        <div class="search-container">
+            <select id="platform-select">
+                <option value="youtube">YouTube</option>
+                <option value="tiktok">TikTok</option>
+            </select>
+            <input type="text" id="search-query" placeholder="Search for videos...">
+            <button onclick="searchVideo()">Search</button>
+        </div>
+
+        <input type="text" id="friend-name" placeholder="Enter Friend's Name">
+        <button onclick="sendRequest()">Send Request</button>
+        <div class="response-message" id="response-message"></div>
+        <div id="video-container"></div>
+        <div class="controls" id="controls" style="display: none;">
+            <button onclick="toggleFullscreen()">Fullscreen</button>
+            <button onclick="goBack()">Go Back</button>
+        </div>
+    </div>
+
+    <script>
+        function searchVideo() {
+            const query = document.getElementById('search-query').value;
+            const platform = document.getElementById('platform-select').value;
+
+            if (!query) {
+                alert('Please enter a search query.');
+                return;
+            }
+
+            let searchUrl = platform === 'youtube' 
+                ? `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`
+                : `https://www.tiktok.com/search?q=${encodeURIComponent(query)}`;
+                
+            window.open(searchUrl, '_blank');
+        }
+
+        function sendRequest() {
+            const friendName = document.getElementById('friend-name').value;
+            const responseMessage = document.getElementById('response-message');
+
+            if (!friendName) {
+                responseMessage.textContent = 'Please enter your friend\'s name.';
+                responseMessage.style.color = 'red';
+                return;
+            }
+
+            let requests = JSON.parse(localStorage.getItem('watchRequests')) || [];
+            requests.push({ friendName });
+            localStorage.setItem('watchRequests', JSON.stringify(requests));
+
+            responseMessage.textContent = `Request sent to ${friendName}.`;
+            responseMessage.style.color = '#28a745';
+
+            setTimeout(() => {
+                const friends = JSON.parse(localStorage.getItem('friends')) || [];
+                responseMessage.textContent = friends.includes(friendName) 
+                    ? `${friendName} has accepted your request.` 
+                    : `${friendName} has not accepted your request.`;
+            }, 2000);
+        }
+
+        function openVideoPlayer(videoUrl) {
+            const videoContainer = document.getElementById('video-container');
+            const controls = document.getElementById('controls');
+            const videoId = extractVideoId(videoUrl);
+
+            if (videoId) {
+                videoContainer.innerHTML = `
+                    <iframe id="video-frame" src="${videoId.url}?autoplay=1" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                `;
+                controls.style.display = 'block';
+            } else {
+                videoContainer.innerHTML = 'Invalid video URL.';
+            }
+        }
+
+        function extractVideoId(videoUrl) {
+            const url = new URL(videoUrl);
+            let videoId = '';
+
+            if (url.hostname.includes('youtube.com')) {
+                videoId = url.searchParams.get('v');
+            } else if (url.hostname.includes('tiktok.com')) {
+                videoId = url.pathname.split('/').pop();
+            }
+
+            return {
+                url: videoId ? `https://www.youtube.com/embed/${videoId}` : '',
+            };
+        }
+
+        function toggleFullscreen() {
+            const videoFrame = document.getElementById('video-frame');
+            if (videoFrame.requestFullscreen) {
+                videoFrame.requestFullscreen();
+            } else if (videoFrame.mozRequestFullScreen) {
+                videoFrame.mozRequestFullScreen();
+            } else if (videoFrame.webkitRequestFullscreen) {
+                videoFrame.webkitRequestFullscreen();
+            } else if (videoFrame.msRequestFullscreen) {
+                videoFrame.msRequestFullscreen();
+            }
+        }
+
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Friends</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Sidebar Navigation */
+        nav {
+            height: 100%;
+            width: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+            transition: width 0.3s;
+        }
+
+        nav:hover {
+            width: 200px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a i {
+            font-size: 24px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        nav a span {
+            opacity: 0;
+            margin-left: 10px;
+            white-space: nowrap;
+            transition: opacity 0.3s ease;
+        }
+
+        nav:hover a span {
+            opacity: 1;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin-left: 100px;
+            margin-top: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        /* Search Bar */
+        #search-bar {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Members Container */
+        .members-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .member {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #eaeaea;
+            padding: 10px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .member:hover {
+            background-color: #d9d9d9;
+            cursor: pointer;
+        }
+
+        .member img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .member .no-depee {
+            width: 50px;
+            height: 50px;
+            background-color: #ccc;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .member p {
+            flex: 1;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        .toggle {
+            cursor: pointer;
+            color: #444;
+            font-size: 18px;
+        }
+
+        .details {
+            display: none;
+            margin-top: 10px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .details p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .add-friend-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .add-friend-btn:hover {
+            background-color: #218838;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .member {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .member img {
+                margin-bottom: 10px;
+            }
+
+            .member p {
+                margin: 0;
+            }
+
+            .add-friend-btn {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="2.html"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="3.html"><i class="fas fa-comments"></i><span>Chats</span></a>
+        <a href="1.html"><i class="fas fa-user-friends"></i><span>New Friends?</span></a>
+        <a href="8.html"><i class="fas fa-user-friends"></i><span>FriendsList</span></a>
+        <a href="5.html"><i class="fas fa-gamepad"></i><span>Game with <br>Friends</span></a>
+        <a href="7.html"><i class="fas fa-video"></i><span>Streams <br>with Friends</span></a>
+        <a href="practise1.html"><i class="fas fa-video"></i><span>FENDRI</span></a>
+
+        <a href="6.html"><i class="fas fa-user"></i><span>Account</span></a>
+        <a href="4.html"><i class="fas fa-question-circle"></i><span>Help</span></a>
+    </nav>
+    
+    <div class="container">
+        <h2>Find Your Match</h2>
+        <input type="text" id="search-bar" placeholder="Search members..." oninput="filterMembers()">
+        <div id="members-list" class="members-container"></div>
+    </div>
+
+    <script>
+        function showMembers() {
+            const membersList = document.getElementById('members-list');
+            membersList.innerHTML = '<p>Loading members...</p>';
+
+            const members = JSON.parse(localStorage.getItem('members')) || [];
+            membersList.innerHTML = '';
+
+            if (members.length === 0) {
+                membersList.innerHTML = '<p>No members found.</p>';
+            } else {
+                members.forEach((member, index) => {
+                    membersList.innerHTML += `
+                        <div class="member">
+                            <div class="depee">
+                                ${member.depee ? `<img src="${member.depee}" alt="Profile Picture">` : `<div class="no-depee">No Pic</div>`}
+                            </div>
+                            <p>${member.name} <span class="toggle" onclick="toggleDetails(${index})">▼</span></p>
+                            <div class="details" id="details-${index}">
+                                <p>Age: ${member.age}</p>
+                                <p>Favorite Food: ${member.favoriteFood}</p>
+                                <p>Favorite Place: ${member.favoritePlace}</p>
+                                <p>Favorite Hobby: ${member.favoriteHobby}</p>
+                                <p>Interests: ${member.interests}</p>
+                                <button class="add-friend-btn" onclick="addFriend('${member.name}')">Add Friend</button>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+        }
+
+        function toggleDetails(index) {
+            const details = document.getElementById(`details-${index}`);
+            const toggle = document.querySelectorAll('.toggle')[index];
+            if (details.style.display === 'none' || details.style.display === '') {
+                details.style.display = 'block';
+                toggle.textContent = '▲';
+            } else {
+                details.style.display = 'none';
+                toggle.textContent = '▼';
+            }
+        }
+
+        function addFriend(name) {
+            let friends = JSON.parse(localStorage.getItem('friends')) || [];
+            
+            if (friends.includes(name)) {
+                alert(`${name} is already your friend.`);
+                return;
+            }
+            
+            friends.push(name);
+            localStorage.setItem('friends', JSON.stringify(friends));
+
+            // Store in the friend list of 8.html as well
+            localStorage.setItem('8.html-friends', JSON.stringify(friends));
+
+            alert(`${name} has been added as a friend.`);
+        }
+
+        function filterMembers() {
+            const searchInput = document.getElementById('search-bar').value.toLowerCase();
+            const members = document.querySelectorAll('.member');
+            members.forEach(member => {
+                const name = member.querySelector('p').textContent.toLowerCase();
+                if (name.includes(searchInput)) {
+                    member.style.display = 'block';
+                } else {
+                    member.style.display = 'none';
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', showMembers);
+    </script>
+</body>
+</html>

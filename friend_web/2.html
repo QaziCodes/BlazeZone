@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: silver;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+  
+        nav {
+            height: 100%;
+            width: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px;
+            transition: width 0.3s;
+        }
+
+        nav:hover {
+            width: 200px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            transition: all 0.3s ease;
+        }
+
+
+        nav a i {
+            font-size: 24px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        nav a span {
+            opacity: 0;
+            margin-left: 10px;
+            white-space: nowrap;
+            transition: opacity 0.3s ease;
+        }
+        .de {
+           font-family: 'Dancing Script', cursive;
+        }
+
+
+        nav:hover a span {
+            opacity: 1;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+content {
+            margin-left: 80px;
+            padding: 20px;
+        }
+
+        .single {
+            background-color: rgba(192, 192, 192, 0.137);
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: black;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .mc {
+            margin: 0px;
+            height: fit-content;
+            font-style: normal;
+            margin-bottom: 20px;
+            padding-bottom: 7px;
+        }
+
+        .mc h2 {
+            color: black;
+            font-size: 24px;
+            padding: 10px;
+            text-align: center;
+            margin: 0px;
+            font-weight: bold;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        .mc p {
+            color: black;
+            font-size: 20px;
+            padding: 0px;
+            text-align: center;
+            margin: 0px;
+            font-weight: bold;
+        }
+
+        .shut {
+            /* background-color: rgba(255, 0, 0, 0.568); */
+            margin-bottom: 40px;
+            text-decoration: underline;
+        }
+
+        .fu {
+            text-decoration: wavy;
+            margin-bottom: 40px;
+            padding: 10px;
+        }
+
+        .de span {
+            font-family: 'Pacifico', cursive;
+            font-weight: bold;
+        }
+
+        .de:nth-child(2) {
+            font-family: 'Shadows Into Light', cursive;
+        }
+
+        .de {
+            color: rgba(255, 255, 255, 0.699);
+            font-size: 20px;
+            padding: 0px;
+            text-align: center;
+            margin: 0px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+            
+
+        
+        .single4 {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+        .table-container {
+            display: none;
+        }
+
+        .stories-container {
+            text-align: center;
+        }
+        .stories-container h1 {
+            color: black;
+            background-color:rgba(255, 166, 0, 0.205);
+            text-align: center;
+        }
+        .stories-container h2{
+            margin: auto;
+            position: left;
+            color: rgb(255, 0, 0);
+
+        }
+   
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="text"], input[type="number"], input[type="email"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1f638b;
+        }
+
+        .story {
+            margin-bottom: 20px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="2.html"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="3.html"><i class="fas fa-comments"></i><span>Chats</span></a>
+        <a href="1.html"><i class="fas fa-user-friends"></i><span>New Friends?</span></a>
+        <a href="8.html"><i class="fas fa-user-friends"></i><span>FriendsList</span></a>
+        <a href="5.html"><i class="fas fa-gamepad"></i><span>Game with <br>Friends</span></a>
+        <a href="7.html"><i class="fas fa-video"></i><span>Streams <br>withFriends</span></a>
+        <a href="practise1.html"><i class="fas fa-video"></i><span>FENDRI</span></a>
+        <a href="6.html"><i class="fas fa-user"></i><span>Account</span></a>
+        <a href="4.html"><i class="fas fa-question-circle"></i><span>Help</span></a>
+    </nav>
+    <div class="content">
+        <div id="home" class="single">
+            <h1><b><center><u>WELCOME TO THE CREATER OF FRIENDS!</u></center></b></h1>
+        </div>
+
+        <div class="mc">
+            <div class="shut">
+                <h2>Friend Finder!</h2>
+            </div>
+
+            <div class="fu">
+                <p class="de"><span>BORED OF YOUR LIFE </span></p><br>
+                <p class="de">YOU ONLY NEED FRIENDS TO MAKE YOUR LIFE FULL OF COLORS</p>
+            </div>
+        </div>
+    </div>
+        <div id="sign-in" class="single4 table-container">
+            <h2>Sign In</h2>
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <th>Age:</th>
+                    <th>Email:</th>
+                    <th>Location:</th>
+                    <th>Gender:</th>
+                </tr>
+                <tr>
+                    <td><input id="name" type="text" placeholder="Enter Name"></td>
+                    <td><input id="age" type="number" placeholder="Enter Age"></td>
+                    <td><input id="email" type="email" placeholder="Enter Email"></td>
+                    <td><input id="location" type="text" placeholder="Enter Location"></td>
+                    <td>
+                        <select id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <button type="button" onclick="saveUserData();">Sign In</button>
+        </div>
+
+        <div id="stories-page" class="stories-container">
+            
+            <div><h1>Friendship Stories:</h1></div>
+            <div><h2> Small Entertainments:</h2></div>
+               <!-- Replace these placeholders with actual stories -->
+            <div class="story1">
+                <h3>Story 1: The Reunion </h3>
+                <p> After years of drifting apart<button class="pink" onclick="umar()">CLICK FOR FULL STORY</button>
+                <button onclick="dada()">listen</button></p>
+            </div>
+               <!-- Add more stories here -->
+            <div class="story2">
+                <h3>Story 2: The Power of Friendship</h3>
+                <p> <button onclick="ali()">CLICK FOR FULL STORY</button></p>
+            </div>
+            <div class="story3">
+                <h3>Story 3: The Adventures of Peanut and Butter</h3>
+                <p> <button onclick="ahmed()">CLICK FOR FULL STORY</button></p>
+            </div>
+            <div class="story4">
+                <h3>Story 4: The Lost Key</h3>
+                <p> <button onclick="taha()">CLICK FOR FULL STORY</button></p>
+            </div>
+            <div class="story5">
+                <h3>Story 5: The Garden of Love</h3>
+                <p> <button onclick="muhammad()">CLICK FOR FULL STORY</button></p>
+            </div>
+            
+
+            <h1>A Book on Friendship</h1>
+            <!-- Replace these placeholders with actual stories -->
+            <div class="book 1">
+                <h2>The Hidden Treasure</h2>
+                <p><button onclick="koob()">CLICK FOR FULL STORY</button></p>
+            </div>
+         
+        </div>
+    </div>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const signInPage = document.getElementById('sign-in');
+            const storiesPage = document.getElementById('stories-page');
+            const signInLink = document.getElementById('sign-in-link');
+
+            // Check if user is logged in
+            if (localStorage.getItem('loggedIn')) {
+                signInPage.style.display = 'none';
+                storiesPage.style.display = 'block';
+            } else {
+                signInPage.style.display = 'block';
+                storiesPage.style.display = 'none';
+            }
+
+            // Simulate login on form submission
+            signInLink.addEventListener('click', () => {
+                document.getElementById('sign-in').style.display = 'block';
+                document.getElementById('stories-page').style.display = 'none';
+            });
+        });
+
+        function saveUserData() {
+            const name = document.getElementById('name').value;
+            const age = document.getElementById('age').value;
+            const email = document.getElementById('email').value;
+            const location = document.getElementById('location').value;
+            const gender = document.getElementById('gender').value;
+
+            // Store user data
+            localStorage.setItem('name', name);
+            localStorage.setItem('age', age);
+            localStorage.setItem('email', email);
+            localStorage.setItem('location', location);
+            localStorage.setItem('gender', gender);
+            localStorage.setItem('loggedIn', true);
+
+            // Hide sign-in and show stories
+            document.getElementById('sign-in').style.display = 'none';
+            document.getElementById('stories-page').style.display = 'block';
+        }
+        function speaker() {
+            const content = document.getElementById('unique-story-text-789xyz').innerText;
+            const speech = new SpeechSynthesisUtterance(content);
+            speech.lang = 'en-US'; // Set the language
+            speech.rate = 1; // Adjust the speed
+            speech.pitch = 1; // Adjust the pitch
+            window.speechSynthesis.speak(speech);
+        }
+
+        function goBack() {
+            // Go back to the previous content or page
+            document.getElementById("story-box-xyz123").innerHTML = `
+                <button onclick="loadStory()">Read Story</button>
+            `;
+        }
+
+        function umar() {
+            document.getElementById("stories-page").innerHTML = `
+                    <h2>Story 1: The Reunion</h2>
+                    <p>
+                        Sarah and Emily found themselves back in their hometown for their high school reunion. The years had taken them on different paths—Sarah had become a successful lawyer in New York, while Emily had stayed in their small town, running a cozy bookstore.
+                        The reunion was held in the old gymnasium, decorated with photos and memorabilia from their school days. As Sarah walked in, she felt a mix of nostalgia and anxiety. Would anyone remember her? Would she remember them?
+                        Emily spotted Sarah first. She was standing by the punch bowl, looking as elegant as ever. Emily hesitated for a moment, then walked over. "Sarah?" she said, her voice a mix of excitement and uncertainty.
+                        Sarah turned, her face lighting up with recognition. "Emily! It's been so long!"
+                        They hugged, and for a moment, it felt like no time had passed at all. They spent the evening catching up, reminiscing about old times, and sharing stories of their lives since graduation. Sarah talked about the challenges of her career, the long hours, and the loneliness of living in a big city. Emily shared her joys and struggles of running the bookstore, the community events she organized, and the satisfaction of living a simpler life.
+                        As the night wore on, they realized how much they had missed each other. Despite their different paths, their bond was still strong. They promised to stay in touch and not let so much time pass before their next meeting.
+                        The reunion ended, but it marked a new beginning for Sarah and Emily. They kept their promise, visiting each other often and supporting one another through life's ups and downs. Their friendship, once thought lost, was rekindled and stronger than ever.
+                        I hope you enjoyed the story! Do you have any other requests or want to listen to another story?
+                    </p>
+                    <button onclick="goBack()">Back to Stories</button>
+                    <button onclick="speaker()">🔊 Speak Story</button> 
+                
+            `;
+        }
+        function dada() {
+            
+        }
+
+        function ali() {
+            document.getElementById("stories-page").innerHTML = `
+                <h2>Story 2: The Power of Friendship</h2>
+                <p>
+                    A curious girl named Sophie stumbled upon a dusty old book. As she opened it, she noticed a shy boy named Max watching her from behind a bookshelf. Sophie smiled and invited Max to join her. Together, they discovered hidden treasures within the library’s shelves, from ancient maps to magical tales.
+                </p>
+                <p>
+                    As days turned into weeks, their bond grew stronger. They worked together to save the library from closure, organizing events and rallying the community. Through their efforts, they not only saved the library but also found a lifelong friendship. Their unlikely friendship showed that sometimes, the most unexpected connections can lead to the most powerful bonds.
+                </p>
+                <button onclick="goBack()">Back to Stories</button>
+            `;
+        }
+        function ahmed() {
+            document.getElementById("stories-page").innerHTML = `
+                <h2>Story 3: The Adventures of Peanut and Butter</h2>
+                <p>
+                    In a cozy little neighborhood nestled between rolling hills and babbling brooks, two unlikely friends, Peanut the rabbit and Butter the squirrel, embarked on the greatest adventure of their lives. Despite their differences, they shared a love for exploration and discovery.
+                </p>
+                <p>
+                    One sunny morning, they found an old, mysterious map that led them to a hidden cave. With excitement in their hearts, they ventured into the unknown. Inside the cave, they faced various challenges, from navigating dark tunnels to solving ancient puzzles. Their teamwork and trust in each other helped them overcome every obstacle.
+                </p>
+                <p>
+                    At the end of their journey, they discovered a magnificent treasure chest filled with sparkling gems and ancient artifacts. But more importantly, they realized that the true treasure was their friendship, which had grown stronger through their adventure. Peanut and Butter returned home, their bond unbreakable and their hearts full of joy.
+                </p>
+                <button onclick='goBack()'>Back to Stories</button>
+            `;
+        }
+        
+
+        
+        
+
+ 
+       
+
+
+        function taha() {
+            document.getElementById("stories-page").innerHTML = "<h2>Story 4: The Lost Key</h2><p>In a small town, a boy named Sam found an old, rusty key while playing in his backyard. Curious, he searched for the lock it belonged to. After days of exploring, he discovered a hidden door in the attic. The key fit perfectly, revealing a forgotten room filled with treasures and memories of his ancestors. Sam realized he had unlocked a piece of his family’s history, and he felt a deep connection to his past.</p><button onclick='goBack()'>Back to Stories</button>";
+        }
+        function muhammad() {
+            document.getElementById("stories-page").innerHTML = `
+                <h2>Story 5: The Garden of Love</h2>
+                <p>
+                    In a quaint village, there was a beautiful garden known as the Garden of Love. It was a place where people came to celebrate love and joy. Flowers of every color bloomed, and the air was filled with the sweet scent of blossoms.
+                </p>
+                <p>
+                    One day, a young couple, Lily and James, visited the garden. They were deeply in love and often spent their afternoons there, dreaming of their future together. However, one day they found the garden changed. A tall, imposing chapel had been built in the center, and the once vibrant flowers were replaced with cold, gray tombstones.
+                </p>
+                <p>
+                    Confused and saddened, Lily and James wandered through the garden. They saw priests in black gowns, walking solemnly and binding the garden with thorny briars. The joy and freedom they once felt were replaced with a sense of restriction and sorrow.
+                </p>
+                <p>
+                    Determined to restore the garden to its former glory, Lily and James began to plant new flowers. They worked tirelessly, and slowly, the garden started to bloom again. The chapel remained, but the flowers began to reclaim their space, symbolizing the enduring power of love and the couple’s unwavering hope.
+                </p>
+                <p>
+                    In the end, the Garden of Love became a place where both the chapel and the flowers coexisted, reminding everyone that love and joy could thrive even in the face of adversity.
+                </p>
+                <button onclick='goBack()'>Back to Stories</button>
+            `;
+        }
+        function koob() {
+            document.getElementById("stories-page").innerHTML = `
+                <h2>The Hidden Treasure</h2>
+                <p>
+                    <pre>
+                        ----------------------------------------------------------------
+                        Chapter 1: The Beginning
+                        ----------------------------------------------------------------
+                        Once upon a time, in a small town, there were three best friends: Alice, Bob, and Charlie.
+                        They did everything together and shared a bond that was unbreakable. 
+                        One day, they heard rumors about a hidden treasure in the old mansion on the hill.
+                        Their curiosity was piqued, and they decided to investigate.
+                        They gathered their supplies and set off on their adventure. 
+                        Little did they know, this journey would change their lives forever.
+        
+                        ----------------------------------------------------------------
+                        Chapter 2: The Mansion
+                        ----------------------------------------------------------------
+                        The mansion was old and covered in ivy, with broken windows and creaky doors. 
+                        The friends felt a mix of excitement and fear as they approached. 
+                        They pushed open the heavy front door and stepped inside. 
+                        The air was thick with dust, and the floorboards creaked under their feet. 
+                        They split up to explore different rooms, hoping to find clues. Alice found an old diary, 
+                        Bob discovered a hidden staircase, and Charlie stumbled upon a strange map. 
+                        They regrouped to share their findings.
+        
+                        ----------------------------------------------------------------
+                        Chapter 3: The Map
+                        ----------------------------------------------------------------
+                        The map was old and faded, with strange symbols and markings. 
+                        It seemed to lead to a specific location within the mansion. 
+                        The friends decided to follow the map's directions. 
+                        They navigated through dark hallways and hidden passages. 
+                        The map led them to a locked door in the basement. Bob used his lock-picking skills to open it. 
+                        Inside, they found a room filled with ancient artifacts.
+        
+                        ----------------------------------------------------------------
+                        Chapter 4: The Clues
+                        ----------------------------------------------------------------
+                        The room was filled with old books, paintings, and mysterious objects. 
+                        They carefully examined each item, looking for more clues. 
+                        Alice found a letter hidden inside a book. 
+                        The letter mentioned a secret key hidden in the garden. Excited, they rushed outside to search for the key. 
+                        After hours of digging, they finally found it buried under a tree. 
+                        The key was old and rusty, but it fit perfectly into a lock they had found earlier.
+        
+                        ----------------------------------------------------------------
+                        Chapter 5: The Secret Room
+                        ----------------------------------------------------------------
+                        The key unlocked a hidden door behind a bookshelf. Inside, they found a small, dimly lit room. 
+                        The walls were covered in old maps and drawings. In the center of the room was a chest. 
+                        Their hearts raced as they opened it. Inside, they found a collection of old letters and photographs. 
+                        The letters told the story of the mansion's original owners.
+        
+                        ----------------------------------------------------------------
+                        Chapter 6: The History
+                        ----------------------------------------------------------------
+                        The letters revealed that the mansion once belonged to a wealthy family. 
+                        The family had hidden their most valuable possessions to protect them from thieves. 
+                        The friends realized that the true treasure was the history and memories they had uncovered. 
+                        They felt a deep connection to the past. They decided to preserve the letters and photographs. 
+                        They wanted to share the story with the town.
+        
+                        ----------------------------------------------------------------
+                        Chapter 7: The Town
+                        ----------------------------------------------------------------
+                        The friends returned to the town with their findings. They shared the story with the townspeople. 
+                        Everyone was fascinated by the history of the mansion. The town decided to restore the mansion and turn it into a museum. 
+                        The friends were hailed as heroes for their discovery. They felt proud of what they had accomplished. 
+                        Their bond grew even stronger.
+        
+                        ----------------------------------------------------------------
+                        Chapter 8: The Museum
+                        ----------------------------------------------------------------
+                        The mansion was restored to its former glory. The friends helped set up the museum. 
+                        They displayed the letters, photographs, and artifacts they had found. The museum became a popular attraction. 
+                        People from all over came to learn about the mansion's history. 
+                        The friends were happy to see their discovery appreciated by so many.
+        
+                        ----------------------------------------------------------------
+                        Chapter 9: The Legacy
+                        ----------------------------------------------------------------
+                        The friends' adventure became a legend in the town. 
+                        They were remembered as the ones who uncovered the hidden treasure. 
+                        Their story inspired others to explore and discover. The museum continued to thrive. 
+                        The friends remained close, always ready for their next adventure. 
+                        They knew that their bond was unbreakable.
+        
+                        ----------------------------------------------------------------
+                        Chapter 10: The Future
+                        ----------------------------------------------------------------
+                        Years passed, but the friends' bond never wavered. 
+                        They continued to explore and discover new things together. 
+                        They knew that their friendship was the greatest treasure of all. 
+                        They looked forward to many more adventures. 
+                        Their story was a testament to the power of friendship and teamwork. 
+                        And so, their legacy lived on, inspiring future generations.
+                        ----------------------------------------------------------------
+                    </pre>
+                </p>
+                <button onclick='goBack()'>Back to Stories</button>
+            `;
+        }
+        
+        
+
+  
+
+        function goBack() {
+            window.location.reload();
+        }
+    </script>
+</body>
+</html>

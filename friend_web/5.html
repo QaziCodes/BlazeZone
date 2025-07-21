@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game with Friends</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            background-image: 'C:\Users\MR QAZI\Pictures\Camera Roll';
+            margin: 0;
+            padding: 20px;
+        }
+        nav {
+            height: 100%;
+            width: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px;
+            transition: width 0.3s;
+        }
+
+        nav:hover {
+            width: 200px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            transition: all 0.3s ease;
+        }
+
+        nav a i {
+            font-size: 24px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        nav a span {
+            opacity: 0;
+            margin-left: 10px;
+            white-space: nowrap;
+            transition: opacity 0.3s ease;
+        }
+
+        nav:hover a span {
+            opacity: 1;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            margin-left: 100px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .friend-list {
+            margin-bottom: 20px;
+        }
+        .friend-item {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .friend-item label {
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        .game-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .game-item {
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+            text-align: center;
+        }
+        .game-item input {
+            margin-right: 10px;
+        }
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="2.html"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="3.html"><i class="fas fa-comments"></i><span>Chats</span></a>
+        <a href="1.html"><i class="fas fa-user-friends"></i><span>New Friends?</span></a>
+        <a href="8.html"><i class="fas fa-user-friends"></i><span>Friends List</span></a>
+        <a href="5.html"><i class="fas fa-gamepad"></i><span>Game with <br>Friends</span></a>
+        <a href="7.html"><i class="fas fa-video"></i><span>Streams with <br>Friends</span></a>
+        <a href="practise1.html"><i class="fas fa-video"></i><span>FENDRI</span></a>
+        <a href="6.html"><i class="fas fa-user"></i><span>Account</span></a>
+        <a href="4.html"><i class="fas fa-question-circle"></i><span>Help</span></a>
+    </nav>
+    
+    <div class="container">
+        <h1>Choose Friends to Play Game</h1>
+        <div id="friend-list" class="friend-list"></div>
+        <button onclick="showGameSelection()">Next: Choose Game</button>
+        
+        <div id="game-selection" class="game-list" style="display:none;">
+            <h2>Select a Game to Play</h2>
+            <div class="game-item">
+                <input type="radio" name="game" value="Free Fire"> Free Fire
+            </div>
+            <div class="game-item">
+                <input type="radio" name="game" value="PUBG"> PUBG
+            </div>
+            <div class="game-item">
+                <input type="radio" name="game" value="Minecraft"> Minecraft
+            </div>
+            <button onclick="startGame()">Start Game</button>
+        </div>
+        
+        <button class="back-button" onclick="window.location.href='your-previous-page.html'">Back to Game Selection</button>
+    </div>
+
+    <script>
+        function loadFriends() {
+            const friendListElement = document.getElementById('friend-list');
+            const friends = JSON.parse(localStorage.getItem('8.html-friends')) || [];
+            
+            if (friends.length === 0) {
+                alert('No friends found.');
+                return;
+            }
+            
+            friendListElement.innerHTML = friends.map((friend) => `
+                <div class="friend-item">
+                    <label>
+                        <input type="checkbox" name="friend" value="${friend}">
+                        ${friend}
+                    </label>
+                </div>
+            `).join('');
+        }
+        
+        function showGameSelection() {
+            const selectedFriends = Array.from(document.querySelectorAll('input[name="friend"]:checked')).map(input => input.value);
+            
+            if (selectedFriends.length === 0) {
+                alert('Please select at least one friend.');
+                return;
+            }
+
+            // Show the game selection section
+            document.getElementById('game-selection').style.display = 'block';
+        }
+
+        function startGame() {
+            const selectedGame = document.querySelector('input[name="game"]:checked');
+            const selectedFriends = Array.from(document.querySelectorAll('input[name="friend"]:checked')).map(input => input.value);
+            
+            if (!selectedGame) {
+                alert('Please select a game to play.');
+                return;
+            }
+
+            // Simulate sending game requests
+            let requestsAccepted = confirm(`Send game request to ${selectedFriends.join(', ')} to play ${selectedGame.value}?`);
+            
+            if (requestsAccepted) {
+                alert(`Starting ${selectedGame.value} with ${selectedFriends.join(', ')}!`);
+                // Proceed to the game logic here
+            } else {
+                alert('Not all friends accepted the game.');
+            }
+        }
+
+        window.onload = loadFriends;
+    </script>
+</body>
+</html>

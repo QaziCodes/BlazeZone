@@ -1,0 +1,227 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>FRENDI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">  
+    <link rel="stylesheet" href="styles.css">  
+    <style>  
+        body {  
+            font-family: 'Arial', sans-serif;  
+            background-color: #f4f4f4;  
+            margin: 0;  
+        }  
+
+        .header {  
+            background-color: cadetblue;  
+            color: white;  
+            padding: 20px;  
+            text-align: center;  
+        }  
+
+        .container {  
+            display: flex;  
+            height: calc(100vh - 80px);  
+        }  
+
+        .nav-left {  
+            width: 250px;  
+            background-color: #333;  
+            color: white;  
+            padding: 15px;  
+        }  
+
+        .nav-left h2, .nav-right h2 {  
+            text-align: center;  
+        }  
+
+        .nav-left ul, .nav-right ul {  
+            list-style-type: none;  
+            padding: 0;  
+        }  
+
+        .nav-left ul li, .nav-right ul li {  
+            margin: 15px 0;  
+        }  
+
+        .nav-left ul li a, .nav-right ul li a {  
+            color: white;  
+            text-decoration: none;  
+            padding: 10px;  
+            display: flex;  
+            align-items: center;  
+            transition: background 0.3s;  
+        }  
+
+        .nav-left ul li a:hover, .nav-right ul li a:hover {  
+            background-color: cadetblue;  
+        }  
+
+        .nav-left ul li a i, .nav-right ul li a i {  
+            margin-right: 10px;   
+        }  
+
+        .content {  
+            flex: 1;  
+            padding: 20px;  
+            border-left: 1px solid #ccc;  
+            display: flex;  
+            flex-direction: column;  
+            position: relative;  
+        }  
+
+        .chat-box {  
+            border: 1px solid #ccc;  
+            background-color: rgba(255, 255, 255, 0.8);  
+            padding: 15px;  
+            height: calc(100% - 50px);  
+            overflow-y: auto;  
+            margin-bottom: 10px;  
+            border-radius: 5px;  
+        }  
+
+        .input-box {  
+            display: flex;  
+        }  
+
+        .input-box input {  
+            flex: 1;  
+            padding: 10px;  
+            border: 1px solid #ccc;  
+            border-radius: 5px;  
+        }  
+
+        .input-box button {  
+            padding: 10px 15px;  
+            background-color: cadetblue;  
+            color: white;  
+            border: none;  
+            border-radius: 5px;  
+            cursor: pointer;  
+            transition: background 0.3s;  
+        }  
+
+        .input-box button:hover {  
+            background-color: darkcyan;  
+        }  
+
+        /* Additional styling for right navigation */  
+        .nav-right {  
+            width: 250px;  
+            background-color: #333;  
+            color: white;  
+            padding: 15px;  
+            margin-left: auto;  /* Push this to the right side */  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="header">  
+        <h1>FENDRI</h1>  
+    </div>  
+
+    <div class="container">  
+        <nav class="nav-left">  
+            <ul>  
+                <li><a href="2.html"><i class="fas fa-home"></i><span>Home</span></a></li>  
+                <li><a href="3.html"><i class="fas fa-comments"></i><span>Chats</span></a></li>  
+                <li><a href="1.html"><i class="fas fa-user-friends"></i><span>New Friends?</span></a></li>  
+                <li><a href="8.html"><i class="fas fa-user-friends"></i><span>FriendsList</span></a></li>  
+                <li><a href="5.html"><i class="fas fa-gamepad"></i><span>Game with <br>Friends</span></a></li>  
+                <li><a href="7.html"><i class="fas fa-video"></i><span>Streams <br>with Friends</span></a></li>  
+                <li><a href="practise1.html"><i class="fas fa-video"></i><span>FENDRI</span></a></li>  
+                <li><a href="6.html"><i class="fas fa-user"></i><span>Account</span></a></li>  
+                <li><a href="4.html"><i class="fas fa-question-circle"></i><span>Help</span></a></li>  
+            </ul>  
+        </nav>  
+
+        <aside class="nav-right">  
+            <h2>Choose Mode:</h2>
+            <ul>  
+                <li><a href="#" onclick="selectMode('alone')"><i class="fas fa-user-alt"></i> Alone </a></li>  
+                <li><a href="#" onclick="selectMode('border')"><i class="fas fa-border-all"></i> Border </a></li>  
+                <li><a href="#" onclick="selectMode('fitness')"><i class="fas fa-dumbbell"></i> Fitness Advisor</a></li>  
+                <li><a href="#" onclick="selectMode('fashion')"><i class="fas fa-tshirt"></i> Fashion Consultant</a></li>  
+                <li><a href="#" onclick="selectMode('personal_growth')"><i class="fas fa-seedling"></i> Personal Growth</a></li>  
+                <li><a href="#" onclick="selectMode('successful_life')"><i class="fas fa-trophy"></i> Successful Life</a></li>  
+            </ul>  
+        </aside>  
+
+        <main class="content" id="content">  
+            <div class="chat-box" id="chat-box">  
+                <p>Welcome! Select a mode to start chatting with FENDRI.</p>  
+            </div>  
+            <div class="input-box">  
+                <input type="text" id="user-input" placeholder="Type your message here...">  
+                <button onclick="sendMessage()">Send</button>  
+            </div>  
+        </main>  
+    </div>  
+
+    <script>  
+        function selectMode(mode) {  
+            const chatBox = document.getElementById('chat-box');  
+            const content = document.getElementById('content');  
+            
+            // Set background image depending on the mode selected  
+            switch (mode) {  
+                case 'alone':  
+                    content.style.backgroundImage = "url('images/sad_mode.jpg')";  
+                    break;  
+                case 'border':  
+                    content.style.backgroundImage = "url('images/border_mode.jpg')";  
+                    break;  
+                case 'fitness':  
+                    content.style.backgroundImage = "url('images/fitness_mode.jpg')";  
+                    break;  
+                case 'fashion':  
+                    content.style.backgroundImage = "url('images/fashion_mode.jpg')";  
+                    break;  
+                case 'personal_growth':  
+                    content.style.backgroundImage = "url('images/personal_growth.jpg')";  
+                    break;  
+                case 'successful_life':  
+                    content.style.backgroundImage = "url('images/successful_life.jpg')";  
+                    break;  
+                default:  
+                    content.style.backgroundImage = "none"; // Remove background for no mode  
+                    break;  
+            }  
+            content.style.backgroundSize = 'cover'; // Make background cover the entire element  
+            chatBox.innerHTML = `<p>You have selected <strong>${mode}</strong> mode. How can I assist you?</p>`;  
+        }  
+
+        function sendMessage() {  
+            const userInput = document.getElementById('user-input').value;  
+            const chatBox = document.getElementById('chat-box');  
+            if (userInput) {  
+                chatBox.innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;  
+                getAIResponse(userInput);  
+                document.getElementById('user-input').value = ''; // Clear input field  
+            }  
+        }  
+
+        function getAIResponse(input) {  
+            const chatBox = document.getElementById('chat-box');  
+            let response = '';  
+
+            // Sample responses based on keywords (you can enhance this logic)  
+            if (input.toLowerCase().includes('sad')) {  
+                response = "It's okay to feel sad sometimes. Want to share what's bothering you?";  
+            } else if (input.toLowerCase().includes('fitness')) {  
+                response = "Staying fit is important! What fitness goals are you working on?";  
+            } else if (input.toLowerCase().includes('fashion')) {  
+                response = "Fashion is an expression! What styles do you love?";  
+            } else if (input.toLowerCase().includes('growth')) {  
+                response = "Personal growth is a journey. What areas are you focusing on?";  
+            } else {  
+                response = "I'm here to help! What would you like to discuss? Here are some suggestions: 'Tell me about fitness', 'What is fashion today?', 'I feel sad'.";  
+            }  
+
+            chatBox.innerHTML += `<p><strong>FENDRI:</strong> ${response}</p>`;  
+            chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the latest message  
+        }  
+    </script>  
+</body>  
+</html>
